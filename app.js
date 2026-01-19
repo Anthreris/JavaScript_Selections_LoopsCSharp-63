@@ -30,11 +30,14 @@ for(let i = 0; i <= 100; i++) {
 
  //Exercise 3 Section
  console.log("Exercise 3:\n==========\n");
-
+console.log("Exc.1 While Loop");
  let i = 0;
- while (i < 100); {
+ while (i < 100) {
     if (i % 2 != 0) {
         console.log(i);
     }
     i++
  }
+
+ console.log("Exc.1 Do While Loop");
+ let n = 0;
