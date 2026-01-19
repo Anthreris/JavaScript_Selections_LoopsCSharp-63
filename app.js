@@ -17,8 +17,15 @@ console.log("EXERCISE 2:\n==========\n");
 
 for(let i = 0; i <= 100; i++) {
     if (i % 3 != 0 && i % 5 != 0) {
-        console.log("FIZZBUZZ")
+        console.log("FIZZBUZZ");
+    } else if(i % 3 != 0) {
+        console.log("FIZZ");
+    } else if(i % 5 != 0) {
+        console.log("BUZZ");
     } else {
-        if (i % 3 != 0)
-            console.log("FIZZ")
+        console.log(i)
     }
+}
+ console.log(" ");
+
+ //Exercise 3 Section
