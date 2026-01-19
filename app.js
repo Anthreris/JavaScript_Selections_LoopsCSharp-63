@@ -4,7 +4,7 @@ console.log("Hello World!\n==========\n");
 console.log("EXERCISE 1:\n==========\n");
 
 for(let i = 0; i <= 100; i++) {
-    if (i % 2 !== 0) {
+    if (i % 2 != 0) {
         console.log(i)
     } else {
         continue;
@@ -16,9 +16,9 @@ console.log(" ");
 console.log("EXERCISE 2:\n==========\n");
 
 for(let i = 0; i <= 100; i++) {
-    if (i % 3 !== 0) {
-        console.log("FIZZ")
-    } else if (i % 5 !== 0) {
-        console.log("BUZZ")
-    } else (i % 3 & 5)
-}
+    if (i % 3 != 0 && i % 5 != 0) {
+        console.log("FIZZBUZZ")
+    } else {
+        if (i % 3 != 0)
+            console.log("FIZZ")
+    }
