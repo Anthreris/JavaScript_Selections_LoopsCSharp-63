@@ -29,3 +29,10 @@ for(let i = 0; i <= 100; i++) {
  console.log(" ");
 
  //Exercise 3 Section
+ console.log("Exercise 3:\n==========\n");
+
+ let i = 0;
+
+ while (i<= 100; i++) {
+
+ }
