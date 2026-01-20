@@ -54,9 +54,14 @@ console.log("Exc.2 While Loop");
  let x = 0;
  while (x <=100) {
     if (x % 3 == 0 && x % 5 == 0) {
-        console.log(x);
+        console.log("FIZZBUZZ");
+    } if (x % 3 == 0) {
+        console.log("FIZZ") 
+    } if (x % 5 == 0) {
+        console.log("BUZZ")
     }
     x++
+    console.log(x);
  }
  console.log(" ")
 
