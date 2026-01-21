@@ -105,3 +105,8 @@ console.log(" ");
 
 
 // Exercise 5 Section
+console.log("Exercise 5:\n==========\n")
+let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
+let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
+let num = Math.round(Math.random() * (1000 - 1) + 1);
+let start = Math.round(Math.random() * (10 - 1) + 1);
