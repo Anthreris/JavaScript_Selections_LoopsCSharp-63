@@ -95,8 +95,10 @@ let z = Math.round(Math.random() * (500 - 100) + 100); // creates a random numbe
 for(let i = 0; i <= z; i++) {
     if (i == value) {
     console.log(`Found Value! : ${value}`);
+    break;
     } if (i == n) {
         console.log(`Didn't find Value : ${value}`);
+        break;
     }
 }
 console.log(" ");
