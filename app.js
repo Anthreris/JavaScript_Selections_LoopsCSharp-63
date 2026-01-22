@@ -121,4 +121,4 @@ for (let i = start; i <= num; i++) {
     } else {
     console.log(i)
     }
-}
+} console.log(`fizzDivisor: ${fizzDivisor}, buzzDivisor: ${buzzDivisor}`);
