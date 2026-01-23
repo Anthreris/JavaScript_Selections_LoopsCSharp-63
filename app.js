@@ -89,19 +89,14 @@ console.log(" ");
 
  // Exercise 4 Section
  console.log("Exercise 4:\n==========\n");
-
 let value = Math.round(Math.random() * 500); // creates a random number between 0 and 500
 let z = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 for(let i = 0; i <= z; i++) {
     if (i == value) {
     console.log(`Found Value! : ${value}`);
     break;
-    } if (i == n) {
-        console.log(`Didn't find Value : ${value}`);
-        break;
-    }
-}
-console.log(" ");
+    } if (i == z) console.log(`Didn't find Value: ${value}`);
+} console.log(" ");
 
 
 // Exercise 5 Section
